@@ -1,6 +1,6 @@
 export function myFn() {
   console.log("Hello, World!");
-  window.addEventListener('event', (event) => {
+  window.addEventListener('message', (event) => {
     console.log("received event", event);
   })
 }
